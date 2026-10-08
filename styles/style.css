@@ -40,3 +40,17 @@ img {
   border-radius: 50%;
   box-shadow: 0 2px 6px gray;
 }
+
+ul {
+  list-style-type: square;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+}
