@@ -1,0 +1,20 @@
+:root {
+  --primary: #1a4d8f;
+  --text: #222222;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  color: var(--text);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  color: var(--primary);
+}
